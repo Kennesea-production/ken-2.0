@@ -1,0 +1,669 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balthazar&family=Caesar+Dressing&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* BAGIAN 1 PERSONAL INFO */
+/* kepala */
+.top-bar {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    z-index: 9999;
+    border-bottom: 4px solid rgb(116, 21, 21);
+    box-sizing: border-box;
+}
+
+.top-bar .bglink {
+    height: 52px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+    border-bottom: 4px solid rgb(116, 21, 21);
+}
+
+.link {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar .bglink2 {
+    height: 52px;
+    margin-left: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.hobby {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar .bglink3 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.contact {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar .bglink4 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.certificate {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+/* background tubuh atas dan bawah */
+body {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(247, 243, 243);
+}
+
+.bg {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: rgb(247, 243, 243);
+}
+
+.bg2 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: brown;
+}
+/* bagian tengah */
+.container {
+    width: 85%;
+    margin: auto;
+    margin-top: 160px;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.personalinfo {
+    padding-bottom: 50px;
+}
+
+.pendidikan {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.head {
+    font-variant: small-caps;
+    text-decoration: underline;
+    word-spacing: 3px;
+    margin-top: -25px;
+    position: absolute;
+    z-index: auto;
+    font-family: 'Carter One', cursive;
+}
+
+.introduce {
+    padding-top: 70px;
+    text-indent: 15px;
+    font-size: 22px;
+    font-family: 'Balthazar', serif;
+}
+
+.container2 {
+        width: 85%;
+        margin: auto;
+        height: auto;
+        position: relative;
+        box-sizing: border-box;
+}
+
+.head2 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: 'Carter One', cursive;
+}
+
+.level {
+    margin-bottom: 20px;
+    font-size: 23px;
+    font-family: 'Bayon', sans-serif;
+    letter-spacing: 3px;
+}
+/* paragraf */
+.graf {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-indent: 10px;
+    font-family: 'Balthazar', serif;
+}
+/* bagian akhir */
+.footer {
+    width: 100%;
+    height: 250px;
+    background-color: rgb(22, 22, 22);
+}
+
+.copyright {
+    text-align: center;
+    line-height: 250px;
+    color: rgb(138, 138, 138);
+}
+
+
+
+
+
+/* BAGIAN 2 HOBBY */
+/* kepala 2 */
+.top-bar2 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    z-index: 9999;
+    border-bottom: 4px solid rgb(116, 21, 21);
+    box-sizing: border-box;
+}
+
+.top-bar2 .bglink5 {
+    height: 52px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.link2 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar2 .bglink6 {
+    height: 52px;
+    margin-left: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+    border-bottom: 4px solid rgb(116, 21, 21);
+}
+
+.hobby2 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar2 .bglink7 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.contact2 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar2 .bglink8 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.certificate2 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+/* background tubuh atas bawah bagian 2 */
+.bg3 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: rgb(247, 243, 243);
+}
+
+.bg4 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: brown;
+}
+
+/* Image */
+.image {
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(104, 104, 104);
+    overflow: scroll;
+}
+
+.spotify {
+    height: 265px;
+    text-align: center;
+    box-sizing: border-box;
+    background-color: rgb(78, 37, 37);
+    overflow: scroll;
+}
+
+.image4, .image5, .image6 {
+    width: 250px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.image1, .image2, .image3 {
+    width: 200px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+/* bagian tengah */
+.container3 {
+    width: 85%;
+    margin: auto;
+    margin-top: 160px;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.habbits {
+    padding-bottom: 50px;
+}
+
+.dll {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.head3 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    word-spacing: 3px;
+    margin-top: -25px;
+    position: absolute;
+    z-index: auto;
+    font-family: 'Carter One', cursive;
+}
+
+.menggambar {
+    padding-top: 40px;
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: 'Carter One', cursive;
+}
+
+.reason, .reason1, .reason2, .reason3 {
+    margin-bottom: 30px;
+    text-indent: 15px;
+    font-size: 22px;
+    font-family: 'Balthazar', serif;
+}
+
+.reason1, .reason3 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.container4 {
+        width: 85%;
+        margin: auto;
+        height: auto;
+        position: relative;
+        box-sizing: border-box;
+}
+
+.music {
+    text-align: center;
+    font-variant: small-caps;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: 'Carter One', cursive;
+}
+
+.andmore {
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-family: 'Bayon', sans-serif;
+    letter-spacing: 3px;
+}
+/* paragraf */
+.graf {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-indent: 10px;
+    font-family: 'Balthazar', serif;
+}
+
+
+
+
+
+
+/* BAGIAN 3 CONTACT */
+/* kepala */
+.top-bar3 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    z-index: 9999;
+    border-bottom: 4px solid rgb(116, 21, 21);
+    box-sizing: border-box;
+}
+
+.top-bar3 .bglink9 {
+    height: 52px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.link3 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar3 .bglink10 {
+    height: 52px;
+    margin-left: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.hobby3 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar3 .bglink11 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+    border-bottom: 4px solid rgb(116, 21, 21);
+}
+
+.contact3 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar3 .bglink12 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.certificate3 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+/* background tubuh atas dan bawah */
+.bg5 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: rgb(247, 243, 243);
+}
+
+.bg6 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    background-color: brown;
+}
+/* bagian tengah */
+.container5 {
+    width: 85%;
+    margin: auto;
+    margin-top: 160px;
+    height: auto;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.kontak {
+    padding-bottom: 50px;
+}
+
+.url {
+    display: block;
+    padding-top: 40px;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Carter One', cursive;
+}
+
+.url2 {
+    display: block;
+    font-variant: small-caps;
+    margin-bottom: 20px;
+    font-size: 28px;
+    font-family: 'Carter One', cursive;
+}
+
+.url3 {
+    text-decoration: none;
+    color: black;
+}
+
+.more {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.head4 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    word-spacing: 3px;
+    margin-top: -25px;
+    position: absolute;
+    z-index: auto;
+    font-family: 'Carter One', cursive;
+}
+
+.container6 {
+        width: 85%;
+        margin: auto;
+        height: auto;
+        position: relative;
+        box-sizing: border-box;
+}
+
+.head5 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: 'Carter One', cursive;
+}
+
+.moree {
+    margin-bottom: 15px;
+    font-size: 23px;
+    font-family: 'Bayon', sans-serif;
+    letter-spacing: 3px;
+}
+/* paragraf */
+.graf {
+    margin-bottom: 20px;
+    font-size: 22px;
+    text-indent: 10px;
+    font-family: 'Balthazar', serif;
+}
+
+
+
+
+/* kepala */
+.top-bar4 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    background-color: rgb(20, 20, 20);
+    position: fixed;
+    z-index: 9999;
+    border-bottom: 4px solid rgb(116, 21, 21);
+    box-sizing: border-box;
+}
+
+.top-bar4 .bglink13 {
+    height: 52px;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.link4 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar4 .bglink14 {
+    height: 52px;
+    margin-left: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.hobby4 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar4 .bglink15 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+}
+
+.contact4 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+
+.top-bar4 .bglink16 {
+    height: 52px;
+    margin-right: 1%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    display: inline-block;
+    border-bottom: 4px solid rgb(116, 21, 21);
+}
+
+.certificate4 {
+    padding: 5px;
+    line-height: 50px;
+    text-decoration: none;
+    color: rgb(255, 237, 220);
+    display: inline-block;
+}
+/* Badan */
+.bg7 {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    background-color: rgb(247, 243, 243);
+}
+
+.sertif {
+    text-align: center;
+    line-height: 200px;
+}
